@@ -1,0 +1,37 @@
+html {
+    background: #bbb
+}
+.page {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background: url('https://thumbs.dreamstime.com/t/gradient-background-brown-bronze-brass-gray-copper-blur-smooth-soft-wallpaper-abstract-copy-space-gradient-abstract-brown-113202083.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px;
+    margin-bottom: 50px;
+    border: 1px solid white;
+}
+.submitheader {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    height: 150px;
+    background: url('https://themehall.com/preview/celebrate/wp-content/themes/celebrate/images/header.jpg');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    box-shadow: 3px;
+    border-bottom: 1px solid white;
+}
+.page h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20%;
+}
+.submitheader h1 {
+    font-size: 80px;
+    margin-top: 0px;
+    font-weight: 400;
+}
