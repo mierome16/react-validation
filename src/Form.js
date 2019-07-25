@@ -69,11 +69,11 @@ class Form extends Component {
             })
         }
 
-        if (!validator.isAlphanumeric(this.state.username)) {
+        if (!validator.isLength(this.state.username, {min:6})) {
             error = true
             this.setState({
                 error: true,
-                usernameError: 'Username must contain only alphanumeric characters',
+                usernameError: 'Username must contain at least 6 characters',
                 usernameClass: 'err',
             })
         } else {
